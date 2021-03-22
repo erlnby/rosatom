@@ -16,12 +16,14 @@ body {
 }
 
 .hand {
-  height: 850px;
   position: absolute;
 
   bottom: -200px;
   left: calc(50% - 300px);
+}
 
+.hand__image {
+  height: 850px;
   z-index: -1;
 }
 
@@ -54,32 +56,32 @@ body {
 }
 
 ._1 {
-  top: 540px;
-  left: 520px;
+  top: calc(540px - 170px);
+  left: calc(520px - 520px);
   transform: rotate(50deg);
 }
 
 ._2 {
-  top: 290px;
-  left: 645px;
+  top: 120px;
+  left: 125px;
   transform: rotate(80deg);
 }
 
 ._3 {
-  top: 250px;
-  left: 740px;
+  top: 80px;
+  left: 220px;
   transform: rotate(-85deg);
 }
 
 ._4 {
-  top: 280px;
-  left: 840px;
+  top: 110px;
+  left: 315px;
   transform: rotate(-80deg);
 }
 
 ._5 {
-  top: 360px;
-  left: 950px;
+  top: 200px;
+  left: 430px;
   transform: rotate(-70deg);
 }
 

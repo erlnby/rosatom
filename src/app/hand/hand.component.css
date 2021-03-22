@@ -1,6 +1,7 @@
 a {
-  display: inline-block;
+  display: block;
   transition: transform 0.3s;
+  z-index: 2;
 }
 
 a:hover {
